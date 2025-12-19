@@ -1,0 +1,41 @@
+{
+  "name": "Qcs",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "expo start --dev-client",
+    "android": "expo run:android",
+    "ios": "expo run:ios",
+    "web": "expo start --web"
+  },
+  "dependencies": {
+    "@expo/webpack-config": "^0.17.4",
+    "@react-native-async-storage/async-storage": "^1.17.11",
+    "@react-native-community/cli": "^10.1.0",
+    "@react-native-community/masked-view": "^0.1.11",
+    "@react-navigation/native": "^6.1.2",
+    "@react-navigation/stack": "^6.3.11",
+    "axios": "^1.2.2",
+    "expo": "~47.0.12",
+    "expo-splash-screen": "~0.17.5",
+    "expo-status-bar": "~1.4.2",
+    "react": "18.1.0",
+    "react-dom": "18.1.0",
+    "react-native": "0.70.5",
+    "react-native-eject": "^0.2.0",
+    "react-native-gesture-handler": "~2.8.0",
+    "react-native-reanimated": "^2.14.1",
+    "react-native-safe-area-context": "^4.4.1",
+    "react-native-screens": "^3.18.2",
+    "react-native-select-dropdown": "^3.2.1",
+    "react-native-sound": "^0.11.2",
+    "react-native-web": "~0.18.9",
+    "react-redux": "^8.0.5",
+    "redux": "^4.2.0",
+    "redux-persist": "^6.0.0",
+    "redux-thunk": "^2.4.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.9"
+  },
+  "private": true
+}
